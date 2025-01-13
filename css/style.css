@@ -1,5 +1,5 @@
 .banner {
-    background: url('https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg')
+    background: url(../img/Background.jpg)
      no-repeat center center;
      background-size: cover;
      padding-top: 20%;
@@ -25,12 +25,14 @@
 
 .crop-img {
     object-fit: cover;
+    
 }
 
 .tim img {
     width: 250px;
     border: 10px solid #cccccccc;
 }
+
 
 a .social {
     display: inline-block;
@@ -40,4 +42,18 @@ a .social {
     border-radius: 50%;
     background-color: #333;
     line-height: 40px;
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+
+}
+
+.kontak {
+    background: url('../img/tentang.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: blue;
 }
